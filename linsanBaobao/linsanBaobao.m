@@ -8,6 +8,11 @@
 
 #import "linsanBaobao.h"
 
+
+@interface linsanBaobao ()
+
+@end
+
 @implementation linsanBaobao
 
 @end
