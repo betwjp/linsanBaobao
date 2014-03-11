@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface linsanBaobao : NSObject
-
+@property (nonatomic, strong) NSString* name;
+@property (nonatomic, strong) NSString* passwnd;
+- (id)initWithName:(NSString*)name password:(NSString*)passwnd;
 @end

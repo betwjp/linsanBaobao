@@ -15,4 +15,12 @@
 
 @implementation linsanBaobao
 
+- (id)initWithName:(NSString*)name password:(NSString*)passwnd
+{
+    if (self = [super init]) {
+        self.name = name;
+        self.passwnd = passwnd;
+    }
+    return self;
+}
 @end
